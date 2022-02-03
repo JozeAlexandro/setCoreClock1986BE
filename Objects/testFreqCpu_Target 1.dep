@@ -1,0 +1,35 @@
+Dependencies for Project 'testFreqCpu', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\testFreqCpu.c)(0x61FBCA24)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m1 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Ofast -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE1T-I./RTE/_Target_1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE1T/inc-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o ./objects/testfreqcpu.o -MD)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+I (RTE\Device\MDR1986BE1T\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\_Target_1\RTE_Components.h)(0x61FA7630)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x6114C5F2)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cm1.h)(0x614ACC88)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.h)(0x614B2570)
+F (RTE\Device\MDR1986BE1T\MDR1986VE1T.sct)(0x6114C5F2)()
+F (RTE\Device\MDR1986BE1T\MDR32F9Qx_config.h)(0x614C33D2)()
+F (RTE\Device\MDR1986BE1T\startup_MDR1986VE1T.S)(0x6114C5F2)(--target=arm-arm-none-eabi -mcpu=cortex-m1 -masm=auto -c-gdwarf-4 -D__EVAL-I./RTE/Device/MDR1986BE1T-I./RTE/_Target_1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE1T/inc-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION=536 -D_RTE_ -D_RTE_-o ./objects/startup_mdr1986ve1t.o)
+F (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.c)(0x6114C5F2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m1 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Ofast -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE1T-I./RTE/_Target_1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE1T/inc-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o ./objects/system_mdr1986ve1t.o -MD)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE1T\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\_Target_1\RTE_Components.h)(0x61FA7630)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cm1.h)(0x614ACC88)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.h)(0x614B2570)
+F (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.h)(0x614B2570)()
+F (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\src\MDR32F9Qx_rst_clk.c)(0x6149DE84)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m1 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -Ofast -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE1T-I./RTE/_Target_1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM1-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE1T/inc-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o ./objects/mdr32f9qx_rst_clk.o -MD)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x6149DE84)
+I (RTE\Device\MDR1986BE1T\MDR32F9Qx_config.h)(0x614C33D2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\_Target_1\RTE_Components.h)(0x61FA7630)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x6114C5F2)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cm1.h)(0x614ACC88)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmInstr.h)(0x6114C5F2)
+I (C:\Users\ASePetrov\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.3\Libraries\CMSIS\MDR32Fx\CoreSupport\CM1\core_cmFunc.h)(0x6114C5F2)
+I (RTE\Device\MDR1986BE1T\system_MDR1986VE1T.h)(0x614B2570)

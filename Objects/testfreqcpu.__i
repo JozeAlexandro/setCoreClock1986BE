@@ -1,0 +1,10 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m1 -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -gdwarf-4 -Ofast -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality 
+-I./RTE/Device/MDR1986BE1T
+-I./RTE/_Target_1
+-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/CoreSupport/CM1
+-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE1T/inc
+-IC:/Users/ASePetrov/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.3/Libraries/SPL/MDR32Fx/inc
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_
+-o ./objects/testfreqcpu.o -MD "testFreqCpu.c"
