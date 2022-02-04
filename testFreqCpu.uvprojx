@@ -141,9 +141,9 @@
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
-          <pFcarmGrp></pFcarmGrp>
+          <pFcarmGrp>Source Group 1</pFcarmGrp>
           <pFcArmRoot></pFcArmRoot>
-          <FcArmLst>1</FcArmLst>
+          <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
           <ArmAdsMisc>
@@ -328,7 +328,7 @@
             <uC99>0</uC99>
             <uGnu>0</uGnu>
             <useXO>0</useXO>
-            <v6Lang>3</v6Lang>
+            <v6Lang>5</v6Lang>
             <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\coreClock1986BE\h;.\coreClock1986BE\src;..\testFreqCpu</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -387,6 +387,11 @@
               <FileName>testFreqCpu.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\testFreqCpu.c</FilePath>
+            </File>
+            <File>
+              <FileName>coreClock1986BE.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\coreClock1986BE\src\coreClock1986BE.c</FilePath>
             </File>
           </Files>
         </Group>

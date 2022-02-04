@@ -1,5 +1,6 @@
 --cpu Cortex-M1
 ".\objects\testfreqcpu.o"
+".\objects\coreclock1986be.o"
 ".\objects\startup_mdr1986ve1t.o"
 ".\objects\system_mdr1986ve1t.o"
 ".\objects\mdr32f9qx_rst_clk.o"
