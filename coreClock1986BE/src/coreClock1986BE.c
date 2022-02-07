@@ -29,6 +29,11 @@ MGz_t freqHsiCpuSet( MGz_t freq )
 	/// regulator mode and resist 
 	regulatorSettings( realFreq );
 
+	/// HSI frequency tuning up to clear 8 MHz
+	const static int TRIVAL_8_MHz = 25;
+	RST_CLK_HSIadjust( TRIVAL_8_MHz );
+
+
 	/// HSI clocking
 	RST_CLK_HSIcmd( ENABLE );
 	
